@@ -6,7 +6,7 @@ import PyPDF2
 
 def download_pdf(link):
     base_url = 'https://biomedical-engineering-online.biomedcentral.com'
-    folder = '/Users/yihanping/Documents/gatech/Research/ProcessPDF/pdf_downloads/test_dataset/AllMajor'
+    folder = 'ProcessPDF/pdf_downloads/test_dataset/AllMajor'
     full_url = urljoin(base_url, link)
     response = requests.get(full_url)
     if response.status_code == 200:
