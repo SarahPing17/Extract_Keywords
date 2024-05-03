@@ -24,7 +24,7 @@ if __name__ == "__main__":
     time.sleep(5) 
 
     pdf_links = driver.find_elements(By.CSS_SELECTOR, "a[data-title='PDF']")
-    folder = '/Users/yihanping/Documents/gatech/Research/ProcessPDF/pdf_downloads/test_dataset_large/CS/json_forAllMajor'
+    folder = 'CS/json_forAllMajor'
     n = 0
     m = 10
 
